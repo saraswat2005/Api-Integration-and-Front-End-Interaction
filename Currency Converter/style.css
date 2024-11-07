@@ -1,0 +1,123 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0f0f2d; /* Darker background for a professional look */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Container styles */
+  .container {
+    background-color: #1e1e40; /* Dark, modern background for the form */
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 100%;
+    max-width: 420px; /* Limits the container's width to keep it centered */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+  }
+  
+  h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    letter-spacing: 1px;
+  }
+  
+  form {
+    margin-top: 1rem;
+  }
+  
+  /* Form inputs and buttons */
+  form input, form select, form button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    background-color: #292952;
+    color: #ffffff;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Input styling */
+  form input {
+    border: 1px solid #3a3a70;
+    font-size: 1rem;
+    padding-left: 0.75rem;
+  }
+  
+  /* Select dropdown container */
+  .select-container {
+    display: flex;
+    align-items: center;
+    background-color: #292952;
+    border: 1px solid #3a3a70;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+  }
+  
+  .select-container img {
+    max-width: 2rem;
+    margin-right: 0.5rem;
+  }
+  
+  .select-container select {
+    background: #3a3a70;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  /* Styling for the arrow between From and To */
+  .dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .dropdown i {
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+  
+  .msg {
+    color: #ffffff;
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 1.1rem;
+  }
+  
+  /* Button styling */
+  form button {
+    background-color: #494db7;
+    color: #ffffff;
+    font-size: 1.15rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #2d31a6; /* Slightly lighter on hover */
+  }
+  
+  /* Footer, if needed */
+  footer {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 2rem;
+  }
+  
+  
